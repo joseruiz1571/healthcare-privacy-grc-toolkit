@@ -16,4 +16,4 @@ These resources were developed to address the growing intersection of healthcare
 
 ## Contact
 
-Jose Ruiz-Vazquez — [LinkedIn Profile]
+Jose Ruiz-Vazquez — [LinkedIn Profile](https://www.linkedin.com/in/joseruiz1571)
