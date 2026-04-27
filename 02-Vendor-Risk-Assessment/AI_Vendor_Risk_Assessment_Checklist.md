@@ -2,7 +2,7 @@
 
 **Purpose:** This checklist supports the evaluation of Generative AI tools and vendors prior to organizational adoption. It is designed to ensure compliance with HIPAA requirements and institutional data privacy standards before any tool is approved for use by workforce members.
 
-**Instructions:** Complete this checklist for each AI tool under consideration. All items marked "Required" must receive a satisfactory response before the tool may be approved for any use case involving PHI.
+**Instructions:** Complete this checklist for each AI tool under consideration. All items marked "Required" must receive a satisfactory response before the tool may be approved for any use case involving PHI. Items 1.1 and 2.1 are hard stops — failure on either blocks PHI approval regardless of other findings.
 
 ---
 
@@ -50,6 +50,8 @@
 | 4.3 | Does the vendor maintain a vulnerability management program? | ☐ Yes ☐ No | |
 | 4.4 | Does the vendor have a documented incident response plan? | ☐ Yes ☐ No | |
 | 4.5 | Has the vendor experienced a data breach in the past 24 months? | ☐ Yes ☐ No | If Yes, request details and remediation summary. |
+| 4.6 | Does the vendor use subprocessors who may access PHI? | ☐ Yes ☐ No | If Yes, confirm subprocessors are covered under the BAA chain. Request the vendor's subprocessor list. |
+| 4.7 | How does the vendor communicate model updates and version changes? | ☐ Documented | Can the organization pin model versions? What is the deprecation policy? Model behavior changes can have compliance implications. |
 
 ---
 

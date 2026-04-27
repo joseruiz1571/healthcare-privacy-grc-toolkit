@@ -210,11 +210,48 @@ If the breach originated with or was discovered by a business associate (AI vend
 
 **Key determinations:**
 - This is a disclosure of PHI to an unauthorized person — the breach determination turns primarily on Factors 1 and 4.
+- Factor 3 is not in question — the information was received by the wrong party.
 - The AI system generated the error; investigate whether the underlying cause was a training data issue, a context window contamination, or a human workflow failure.
 
 **Likely outcome:** Reportable breach. The disclosure itself is impermissible. Focus notification response on both the individual whose PHI was disclosed and any recipient who received PHI they were not authorized to receive.
 
-**Post-incident action:** Review AI output verification procedures. Determine whether the use case requires enhanced human review before disclosure.
+**Post-incident action:** Review AI output verification procedures. Determine whether the use case requires enhanced human review before disclosure. Investigate whether the AI system has a cross-patient context leakage problem — whether the model or deployment configuration can generate outputs contaminated with other patients' data. This may require vendor investigation and warrant suspending the use case until root cause is confirmed.
+
+---
+
+### Scenario D: PHI Incorporated Into AI Model Training
+
+**What happened:** PHI was used to fine-tune or pre-train an AI model, either by the covered entity or by a vendor processing the covered entity's data.
+
+**Key determinations:**
+- Factor 3 is complicated — PHI encoded in model weights may be accessible to anyone with access to the model, including via model inversion or membership inference attacks, even if the original training data is deleted. The model itself may constitute ongoing impermissible PHI storage with no analog in traditional breach scenarios.
+- The 4-factor analysis applies, but this scenario requires legal and technical expertise beyond standard breach response.
+
+**Likely outcome:** HIGH risk of reportable breach. The PHI may be unrecoverable from the model without destroying the model itself. Engage legal counsel with AI-specific technical knowledge before making the breach determination.
+
+**Immediate actions:**
+- Suspend model deployment pending legal and technical assessment.
+- Engage legal counsel to assess whether model weights must be destroyed or can be retained under legal hold.
+- Request the vendor's complete data lineage documentation: which data was used, in which training run, and whether it can be isolated or removed.
+
+**Post-incident action:** Record this as a distinct risk category in the organization's HIPAA risk assessment (Threat T-02, Vulnerability V-03).
+
+---
+
+### Scenario E: PHI Belongs to Patients of Another Covered Entity
+
+**What happened:** The PHI involved in the incident originates from a partner health system, a data sharing arrangement, or another covered entity — not from the covered entity managing the response.
+
+**Examples:** Training data sourced from a partner's records; a data exchange that routed another covered entity's patient records through the organization's AI system; research data received under a data use agreement that was subsequently mishandled.
+
+**Key determinations:**
+- The responding organization may not be the covered entity with primary notification obligations to the affected individuals — the originating covered entity has independent HIPAA obligations to their own patients.
+- Review the data sharing agreement or BAA between the organizations: who bears notification responsibility, and what are the contractual timelines?
+
+**Required actions:**
+1. Identify the originating covered entity and notify them promptly — do not wait for your own breach determination to be finalized before notifying them, as their 60-day clock runs independently.
+2. Document the date and method of notification to the originating covered entity.
+3. Determine, with legal counsel, whether the responding organization has independent notification obligations in addition to those of the originating covered entity.
 
 ---
 
