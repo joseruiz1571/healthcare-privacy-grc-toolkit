@@ -2,6 +2,12 @@
 
 Practical governance, risk, and compliance resources for managing AI adoption risks in healthcare environments, with a focus on HIPAA privacy compliance.
 
+Healthcare organizations are adopting AI tools faster than their compliance programs can absorb them. The result is a gap: PHI flowing into systems that haven't been properly vetted, BAAs that don't address model training or data retention, and breach response procedures that weren't written with automated systems in mind.
+
+This toolkit fills that gap with four documents and four Claude Code skills. The documents — an acceptable use policy, a vendor risk assessment checklist, a HIPAA risk assessment template, and a BAA negotiation checklist — encode the regulatory requirements and AI-specific provisions that generic compliance templates omit. The skills make them interactive: rather than handing you a blank form, each skill conducts the assessment with you and produces a completed, auditable output.
+
+The toolkit is designed for compliance officers, privacy officers, and GRC practitioners working in covered entities and business associates. It is not theoretical — every provision maps to a regulatory citation, and every hard stop reflects a condition that should block adoption.
+
 ## Contents
 
 ### Policies
