@@ -236,3 +236,7 @@ By signing below, the assessment lead certifies that this assessment reflects an
 | HIPAA Security Rule — Evaluation | 45 CFR §164.308(a)(8) | Perform periodic technical and non-technical evaluations |
 | HIPAA Security Rule — Audit Controls | 45 CFR §164.312(b) | Implement hardware, software, and/or procedural mechanisms to record and examine activity |
 | HIPAA Security Rule — Transmission Security | 45 CFR §164.312(e)(1) | Implement technical security measures to guard against unauthorized access to ePHI transmitted over networks |
+
+---
+
+*This document is a sample created for portfolio and demonstration purposes. It is not legal advice. Consult qualified counsel before operational use.*

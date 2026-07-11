@@ -8,6 +8,10 @@ This toolkit fills that gap with four documents and four Claude Code skills. The
 
 The toolkit is designed for compliance officers, privacy officers, and GRC practitioners working in covered entities and business associates. It is not theoretical — every provision maps to a regulatory citation, and every hard stop reflects a condition that should block adoption.
 
+## Project Status
+
+Complete (v1.0). This toolkit is a finished portfolio project. It is stable and passively maintained: issues and corrections are welcome, but there is no active roadmap.
+
 ## Contents
 
 ### Policies
@@ -24,6 +28,8 @@ The toolkit is designed for compliance officers, privacy officers, and GRC pract
 ### Claude Code Skills
 
 These skills make the toolkit interactive. Install any skill and Claude will conduct the assessment with you — producing a completed output, not a blank form.
+
+The skill versions are the most developed form of each document. They extend the top-level templates with additional analytical branches, including state law overlay, 42 CFR Part 2 handling, and workforce discipline tracks. Where the two differ, the skill version is canonical.
 
 - **[AI Vendor Risk Assessment](skills/VendorRiskAssessment/)** — Given a vendor name, documentation, or URL, walks through all checklist items, assigns status findings, flags hard stops, and produces a structured report with a recommendation.
 - **[HIPAA Risk Assessment](skills/HIPAARiskAssessment/)** — Given an AI tool inventory and organizational context, conducts a full HIPAA Security Rule risk assessment: applies the threat and vulnerability catalogs, scores risks, assigns responses, and produces a prioritized remediation plan.
@@ -59,6 +65,12 @@ Claude will walk through the full assessment and produce a structured report wit
 These resources were developed at the intersection of healthcare information governance and AI risk management. The toolkit reflects a background in library and information science — a field that has long grappled with the same core problems healthcare privacy compliance addresses: how information is classified, who may access it, how long it is retained, and what happens when it is disclosed improperly. That grounding informs both the structure of these documents and the emphasis on information lifecycle at each stage of AI adoption.
 
 The skills layer is what makes this toolkit different from a document repository. Each skill encodes the assessment logic — hard stops, scoring rules, AI-specific provisions, regulatory citations — so that running an assessment produces a completed, auditable output rather than a blank form to fill in later.
+
+## License and Disclaimer
+
+This toolkit is licensed under [CC BY 4.0](LICENSE).
+
+These documents are samples created for portfolio and demonstration purposes. They are not legal advice, and using them does not create an attorney-client or consulting relationship. Consult qualified counsel before relying on any of these materials in a live compliance program.
 
 ## Contact
 

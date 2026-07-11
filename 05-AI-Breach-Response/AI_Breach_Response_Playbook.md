@@ -316,3 +316,7 @@ Retention Expiration:   (6 years from creation)
 | HHS notification | 45 CFR §164.408 |
 | Business associate breach notification obligation | 45 CFR §164.410 |
 | 6-year documentation retention | 45 CFR §164.530(j) |
+
+---
+
+*This document is a sample created for portfolio and demonstration purposes. It is not legal advice. Consult qualified counsel before operational use.*

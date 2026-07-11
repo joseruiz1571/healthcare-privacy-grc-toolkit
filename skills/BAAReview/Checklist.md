@@ -25,7 +25,7 @@ Use these consistently throughout the review:
 | 1.3 | Appropriate safeguards to prevent unauthorized use/disclosure | §164.504(e)(2)(ii)(B) |
 | 1.4 | Report unauthorized uses, disclosures, and breaches to covered entity | §164.504(e)(2)(ii)(C), §164.410 |
 | 1.5 | Subcontractors subject to same restrictions via their own agreements | §164.504(e)(2)(ii)(D) |
-| 1.6 | Make records available to HHS for compliance purposes | §164.504(e)(2)(ii)(H) |
+| 1.6 | Make records available to HHS for compliance purposes | §164.504(e)(2)(ii)(I) |
 | 1.7 | Return or destroy PHI at termination; if not feasible, extend protections | §164.504(e)(2)(ii)(J) |
 
 ---

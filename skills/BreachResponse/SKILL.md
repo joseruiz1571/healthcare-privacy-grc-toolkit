@@ -23,7 +23,7 @@ Guide the response to a suspected or confirmed HIPAA breach involving AI tools a
 - **6 response phases:** Detection, Breach Determination, Notification Planning, BA Coordination, Execution, Post-Incident Review
 - **4-factor risk assessment** per 45 CFR §164.402(2)
 - **Notification deadlines:** Individuals and HHS ≤60 days; media ≤60 days if ≥500 in a state
-- **3 AI scenarios** pre-documented: unapproved tool use, vendor breach, wrong-party output disclosure
+- **5 AI scenarios** pre-documented: unapproved tool use, vendor breach, wrong-party output disclosure, PHI in model training, another covered entity's patients
 - **Output:** Completed 4-factor analysis + notification plan + incident record + post-incident checklist
 
 **Full playbook:** `Playbook.md`

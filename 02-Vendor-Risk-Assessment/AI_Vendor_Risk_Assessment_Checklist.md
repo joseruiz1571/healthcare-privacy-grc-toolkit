@@ -81,4 +81,4 @@
 
 ---
 
-*This document is a sample assessment checklist created for portfolio purposes. It is intended to demonstrate practical vendor risk management in a healthcare compliance context.*
+*This document is a sample created for portfolio and demonstration purposes. It is not legal advice. Consult qualified counsel before operational use.*

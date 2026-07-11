@@ -138,4 +138,8 @@ OPEN NEGOTIATION ITEMS:
 | Breach notification by business associate | 45 CFR §164.410 |
 | Breach definition and risk assessment | 45 CFR §164.402 |
 | Termination for material breach | 45 CFR §164.504(e)(2)(iii) |
-| HHS access to records | 45 CFR §164.504(e)(2)(ii)(H) |
+| HHS access to records | 45 CFR §164.504(e)(2)(ii)(I) |
+
+---
+
+*This document is a sample created for portfolio and demonstration purposes. It is not legal advice. Consult qualified counsel before operational use.*

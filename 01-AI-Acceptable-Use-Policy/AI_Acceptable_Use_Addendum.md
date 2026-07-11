@@ -73,4 +73,4 @@ This addendum will be reviewed annually or as needed to reflect changes in techn
 
 ---
 
-*This document is a sample policy addendum created for portfolio purposes. It is intended to demonstrate the intersection of healthcare privacy compliance and emerging technology risk management.*
+*This document is a sample created for portfolio and demonstration purposes. It is not legal advice. Consult qualified counsel before operational use.*
