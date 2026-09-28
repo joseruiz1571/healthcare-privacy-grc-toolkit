@@ -62,7 +62,7 @@ Claude will walk through the full assessment and produce a structured report wit
 
 ## About
 
-These resources were developed at the intersection of healthcare information governance and AI risk management. The toolkit reflects a background in library and information science — a field that has long grappled with the same core problems healthcare privacy compliance addresses: how information is classified, who may access it, how long it is retained, and what happens when it is disclosed improperly. That grounding informs both the structure of these documents and the emphasis on information lifecycle at each stage of AI adoption.
+I build the evidence and assurance layer for AI agent governance. Twenty years in libraries taught me that governance is a cataloging problem — the same core problems healthcare privacy compliance addresses: how information is classified, who may access it, how long it is retained, and what happens when it is disclosed improperly. That grounding informs both the structure of these documents and the emphasis on information lifecycle at each stage of AI adoption.
 
 The skills layer is what makes this toolkit different from a document repository. Each skill encodes the assessment logic — hard stops, scoring rules, AI-specific provisions, regulatory citations — so that running an assessment produces a completed, auditable output rather than a blank form to fill in later.
 
